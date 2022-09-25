@@ -64,3 +64,5 @@ GET
   - Header, authorization: "Bearer " + ${jwt}
   
 - Response: "monkaHmm"
+
+# Otters are cool
