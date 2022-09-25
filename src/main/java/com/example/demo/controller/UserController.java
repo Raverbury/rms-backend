@@ -39,7 +39,7 @@ public class UserController {
     return ResponseEntity.ok(result);
   }
 
-  @PostMapping("/api/protected/user/test")
+  @GetMapping("/api/protected/user/test")
   public ResponseEntity<?> test()
   {
     return ResponseEntity.ok("monkaHmm");
